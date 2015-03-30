@@ -1,0 +1,5 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="loaded">
+  <GridLayout row="1" rows="*">
+    <Button row="0" cssClass="loginButton" text="Login To Instagram" tap="login" />
+  </GridLayout>
+</Page>

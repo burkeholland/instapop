@@ -1,0 +1,17 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="loaded" >
+  <ListView id="feedListView" items="{{ feed }}" itemTap="itemTap">
+    <ListView.itemTemplate>
+        <StackLayout>
+          <GridLayout columns="45, *" className="feedProfile">
+            <Image cssClass="profilePicture" source="{{ profilePicture }}" width="24" height="24" col="0" />
+            <Label text="{{ username }}" col="1" cssClass="username" />
+          </GridLayout>
+          <Image source="{{ standardResolution }}" col="0" cssClass="standardResolution"/>
+          <!-- <GridLayout columns="100, *">
+            
+            <Label text="{{ caption }}" col="1" textWrap="true" cssClass="caption"/>
+          </GridLayout> -->
+        </StackLayout>
+    </ListView.itemTemplate>
+  </ListView>
+</Page>

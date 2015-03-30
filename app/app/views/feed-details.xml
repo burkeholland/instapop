@@ -1,0 +1,6 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" navigatedTo="navigatedTo">
+  <StackLayout>
+    <Image source="{{ image }}" stretch="aspectFit" />
+    <Label text="{{ caption }}" textWrap="true" />
+  </StackLayout>
+</Page>
